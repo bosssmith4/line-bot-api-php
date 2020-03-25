@@ -23,9 +23,9 @@ if ( sizeof($request_array['events']) > 0 )
 		$text = $event['message']['text'];
 		
 		if(($text == "อยากทราบยอด COVID-19 ครับ")||($text == "COVID19")||($text == "COVID-19")){
-			$all = random;
-			$dead = random;
-			$heal = random;
+			$all = 5555555;
+			$dead = 555;
+			$heal = 555555;
 			$reply_message = '"รายงานสถานการณ์ ยอดผู้ติดเชื้อไวรัสโคโรนา 2019 (COVID-19) ในประเทศไทย"
 ผู้ป่วยสะสม	จำนวน '.$all. ' ราย
 ผู้เสียชีวิต	จำนวน'.$dead. 'ราย
